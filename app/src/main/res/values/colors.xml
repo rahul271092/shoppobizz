@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#FFFFFF</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
     <color name="white_trans">#90FFFFFF</color>
     <color name="ring">#9c52df</color>
     <color name="arrow">#f4872a</color>
@@ -137,8 +140,10 @@
     <color name="colorPrimaryDark">#353A65</color>-->
 
     <!--theme #2-->
-    <color name="colorPrimary">#6858E4</color>
-    <color name="colorPrimaryDark">#25184E</color>
+<!--    <color name="colorPrimary">#6858E4</color>-->
+    <color name="colorPrimary">#4E4FEB</color>
+<!--    <color name="colorPrimaryDark">#25184E</color>-->
+    <color name="colorPrimaryDark">#f1f6f9</color>
     <color name="splace">#2C1E5A</color>
 
 
@@ -153,8 +158,9 @@
     <color name="colorAccent">#2F3553</color>
     <color name="dark_blue">#272C45</color>
     <color name="prpl">#400756</color>
-    <color name="colorSecondryDark">#5616A0</color>
+<!--    <color name="colorSecondryDark">#5616A0</color>-->
 
+    <color name="colorSecondryDark">#1d3691</color>
 
 
     <color name="overlay_dark_50">#80000000</color>
@@ -207,7 +213,7 @@
 
     <!--for random color generator -->
     <!--Lucky Draw -->
-
+   <color name="app_bg">#f0f0ef</color>
     <!--gradient colors-->
 
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cash King</string>
+    <string name="app_name">ShoppoBizz</string>
     <string name="next">Next</string>
     <string name="skip">Skip</string>
     <string name="email_">Email</string>
@@ -11,7 +11,7 @@
 
     <string name="title_activity_welcome">Home Screen</string>
     <string name="start">GOT IT</string>
-    <string name="slide_1_desc">The best way to Earn Money from Cash King App!</string>
+    <string name="slide_1_desc">The best way to Earn Money from Shoppobizz App!</string>
     <string name="slide_2_desc">Spin The Wheel to Earn Coins!</string>
     <string name="slide_3_desc">Invite your Friends to Earn More Coins!</string>
     <string name="settings_account_id">account_id</string>
@@ -30,7 +30,7 @@
     <!--profile strings-->
     <string name="privacy_policy" translatable="false">https://google.com</string>
     <string name="terms_of_service" translatable="false">https://google.com</string>
-    <string name="contect_email" translatable="false">abc@mail.com</string>
+    <string name="contect_email" translatable="false">shoppobizz@ko1.in</string>
     <!--profile strings end-->
 
     <!--login text-->

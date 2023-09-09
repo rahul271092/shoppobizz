@@ -159,7 +159,7 @@
                             android:layout_height="@dimen/dimen_60dp"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="@dimen/dimen_20dp"
-                            android:src="@drawable/ic_launcher_app" />
+                            android:src="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/welcome"

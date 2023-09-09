@@ -52,7 +52,7 @@
                        android:background="@drawable/txt_back"
                        android:layout_width="match_parent"
                        android:layout_height="wrap_content">
-                <com.aadevelopers.cashkingapp.spin.OtpEditText
+                <com.cash.earnapp.spin.OtpEditText
                     android:id="@+id/otp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                     android:textIsSelectable="false"
                     android:textSize="12sp">
                     <requestFocus />
-                </com.aadevelopers.cashkingapp.spin.OtpEditText>
+                </com.cash.earnapp.spin.OtpEditText>
 
             </LinearLayout>
         </LinearLayout>

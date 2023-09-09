@@ -11,6 +11,7 @@
     tools:context=".csm.fragment.Main_Fragment">
 
     <RelativeLayout
+        android:background="@color/colorPrimary"
         android:layout_marginBottom="7dp"
         android:layout_width="match_parent"
         android:layout_height="75dp"
@@ -213,6 +214,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -292,7 +294,7 @@
                             android:layout_marginTop="0dp"
                             android:fontFamily="@font/bold"
                             android:gravity="center"
-                            android:text="Meesho"
+                            android:text="NYKAA"
                             android:textAllCaps="true"
                             android:textColor="@color/white"
                             android:textSize="11sp" />
@@ -301,7 +303,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="55dp"
                             android:padding="4dp"
-                            android:src="@drawable/meesho_icon" />
+                            android:src="@drawable/ny_icon" />
 
 
                     </LinearLayout>
@@ -468,7 +470,6 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_marginTop="@dimen/dimen_10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -612,7 +613,7 @@
                     android:layout_height="18dp"
                     android:layout_marginLeft="14dp"
                     android:src="@drawable/ic_game"
-                    app:tint="@color/white" />
+                    app:tint="@color/colorPrimary" />
 
                 <TextView
                     android:id="@+id/game_t"
@@ -621,7 +622,7 @@
                     android:fontFamily="@font/bold"
                     android:paddingLeft="7dp"
                     android:text="Games"
-                    android:textColor="@color/white"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
                 <LinearLayout
@@ -637,7 +638,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/regular"
                         android:text="more"
-                        android:textColor="@color/white"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="13sp" />
 
                     <ImageView
@@ -748,6 +749,31 @@
                 android:layout_marginBottom="10dp"
                 android:background="@color/div_color" />
 
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="News"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/bold"
+                    android:paddingLeft="7dp"
+
+                    />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/news_main_RecyclerView" />
+
+            </LinearLayout>
+
+
             <LinearLayout
                 android:id="@+id/more_offer"
                 android:layout_marginBottom="10dp"
@@ -761,7 +787,7 @@
                     android:layout_height="18dp"
                     android:layout_marginLeft="14dp"
                     android:src="@drawable/hot_offer"
-                    app:tint="@color/white" />
+                    app:tint="@color/black" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -769,7 +795,7 @@
                     android:fontFamily="@font/bold"
                     android:paddingLeft="7dp"
                     android:text="Top offers"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <LinearLayout
@@ -1262,6 +1288,9 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
+
+
 
 
 

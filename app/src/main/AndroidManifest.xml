@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.aadevelopers.cashkingapp">
+    package="com.cash.earnapp">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission
@@ -28,9 +28,9 @@
         tools:node="remove" />
 
     <application
-        android:name="com.aadevelopers.cashkingapp.helper.AppController"
+        android:name="com.cash.earnapp.helper.AppController"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_shoppobizz"
         android:label="@string/app_name"
         android:networkSecurityConfig="@xml/network_security_config"
         android:screenOrientation="portrait"
@@ -38,65 +38,66 @@
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
         <activity
-            android:name="com.aadevelopers.cashkingapp.FragmentLoadingActivity"
+            android:name="com.cash.earnapp.FragmentLoadingActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.cash.earnapp.WebViewActivity" android:exported="true" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.TransActivity"
+            android:name="com.cash.earnapp.csm.TransActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.AppsActivity"
+            android:name="com.cash.earnapp.csm.AppsActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.VisitLinksActivity"
+            android:name="com.cash.earnapp.csm.VisitLinksActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.VisitActivity"
+            android:name="com.cash.earnapp.csm.VisitActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.InstallActivity"
+            android:name="com.cash.earnapp.csm.InstallActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.RefTaskActivity"
+            android:name="com.cash.earnapp.csm.RefTaskActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.OffersActivity"
+            android:name="com.cash.earnapp.csm.OffersActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.RedeemActivity"
+            android:name="com.cash.earnapp.csm.RedeemActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.GameActivity"
+            android:name="com.cash.earnapp.csm.GameActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.VideoActivity"
+            android:name="com.cash.earnapp.csm.VideoActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.OfferWallActivity"
+            android:name="com.cash.earnapp.csm.OfferWallActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.FragViewerActivity"
+            android:name="com.cash.earnapp.csm.FragViewerActivity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.helper.test"
+            android:name="com.cash.earnapp.helper.test"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.PlayActivity"
+            android:name="com.cash.earnapp.csm.PlayActivity"
             android:configChanges="orientation"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.Refer_Activity"
+            android:name="com.cash.earnapp.Refer_Activity"
             android:exported="false" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.TransactionActivity"
+            android:name="com.cash.earnapp.TransactionActivity"
             android:exported="true" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.csm.ActivitySplash"
+            android:name="com.cash.earnapp.csm.ActivitySplash"
             android:exported="true"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.FullScreen">
             <intent-filter>
@@ -106,9 +107,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- Start OPL Activity -->
-        <activity android:name="com.aadevelopers.cashkingapp.csm.MainActivity" />
+        <activity android:name="com.cash.earnapp.csm.MainActivity" />
         <activity
-            android:name="com.aadevelopers.cashkingapp.Activity_Login"
+            android:name="com.cash.earnapp.Activity_Login"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.FullScreen" />
 
         <provider
@@ -122,18 +123,18 @@
         </provider>
 
         <activity
-            android:name="com.aadevelopers.cashkingapp.Just_base"
+            android:name="com.cash.earnapp.Just_base"
             android:label="" />
 
         <service
-            android:name="com.aadevelopers.cashkingapp.helper.MyFirebaseMessagingService"
+            android:name="com.cash.earnapp.helper.MyFirebaseMessagingService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service
-            android:name="com.aadevelopers.cashkingapp.helper.MyFirebaseInstanceIDService"
+            android:name="com.cash.earnapp.helper.MyFirebaseInstanceIDService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
@@ -141,10 +142,10 @@
         </service>
 
         <activity
-            android:name="com.aadevelopers.cashkingapp.WelcomeActivity"
+            android:name="com.cash.earnapp.WelcomeActivity"
             android:label="@string/title_activity_welcome"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar.FullScreen" />
-        <activity android:name="com.aadevelopers.cashkingapp.luck_draw.Activity_Notification" />
+        <activity android:name="com.cash.earnapp.luck_draw.Activity_Notification" />
         <activity
             android:name="com.ayetstudios.publishersdk.OfferwallActivity"
             android:configChanges="orientation|screenSize"

@@ -7,7 +7,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        applicationId "com.aadevelopers.cashkingapp"
+        applicationId "com.cash.earnapp"
         minSdkVersion 23
         targetSdkVersion 32
         versionCode 3
@@ -21,23 +21,16 @@ android {
         ]
     }
 
-    buildTypes {
-        release {
-            lintOptions {
-                checkReleaseBuilds false
-                // Or, if you prefer, you can continue to check for errors in release builds,
-                // but continue the build even when errors are found:
-                abortOnError false
-            }
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+//    buildTypes {
+//        release {
+//            signingConfig signingConfigs.debug
+//        }
+//    }
 }
 
 // Maven Repositories

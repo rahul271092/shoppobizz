@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="59dp"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/nav_back"
+        android:background="@color/colorPrimary"
         app:cnb_addBottomInset="false"
         app:cnb_addLeftInset="false"
         app:cnb_addRightInset="false"
